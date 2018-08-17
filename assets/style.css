@@ -1,3 +1,14 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: center;
+    margin: 10px;
+    min-height: 200px;
+}
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
     position: fixed;
@@ -5,4 +16,22 @@
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
+}
+
+.container {
+    position: fixed;
+    top: 37%;
+    padding: 0%;
+    margin: 0%;
+    background:  rgba(0, 0, 0, 0.4);
+    color: #f1f1f1;
+    width: 100%;
+}
+
+#time{
+    text-align: center;
+    font-size: 100px;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
 }
